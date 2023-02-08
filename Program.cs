@@ -1,8 +1,20 @@
 ﻿using System;
 
 
-//Exercicio Salário
+//Exercicio Salário com Bônus
 
+string Nome = Console.ReadLine();
+double SalFix = double.Parse(Console.ReadLine());
+double Vendas = double.Parse(Console.ReadLine());
+double SalTotal = SalFix + (Vendas * 0.15);
+
+Console.WriteLine($"TOTAL = R$ {Math.Round(SalTotal,2)}");
+
+
+
+
+//Exercicio Salário
+/*
 int num = int.Parse(Console.ReadLine());
 int QtdH = int.Parse(Console.ReadLine());
 double Sal = double.Parse(Console.ReadLine());
