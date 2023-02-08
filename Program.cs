@@ -1,8 +1,36 @@
 ﻿using System;
 
 
-//Exercicio Salário com Bônus
 
+
+//Exercicio Intervalo
+double Val = double.Parse(Console.ReadLine());
+
+if (Val > 0 && Val <= 25)
+{
+    Console.WriteLine("Intervalo (0,25]");
+}
+else if (Val > 25 && Val <= 50)
+{
+    Console.WriteLine("Intervalo (25,50]");
+}
+else if (Val > 50 && Val <= 75)
+{
+    Console.WriteLine("Intervalo (50,75]");
+}
+else if (Val > 75 && Val <= 100)
+{
+    Console.WriteLine("Intervalo (75,100]");
+}
+else
+{
+    Console.WriteLine("Fora de intervalo");
+}
+
+
+
+//Exercicio Salário com Bônus
+/*
 string Nome = Console.ReadLine();
 double SalFix = double.Parse(Console.ReadLine());
 double Vendas = double.Parse(Console.ReadLine());
