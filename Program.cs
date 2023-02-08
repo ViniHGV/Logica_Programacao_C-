@@ -1,39 +1,63 @@
 ﻿using System;
 
 
+double N1 = double.Parse(Console.ReadLine());
+double N2 = double.Parse(Console.ReadLine());
+double N3 = double.Parse(Console.ReadLine());
+double N4 = double.Parse(Console.ReadLine());
+double Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) /10;
+
+if (Media >= 7)
+{
+    Console.WriteLine($"Media: {Media}\nAluno aprovado.");
+}
+
+
+
 
 //Exercicio Lanche
-
+/*
 int cod = int.Parse(Console.ReadLine());
 int qtd = int.Parse(Console.ReadLine());
 double Price = 0;
 
-if (cod == 1){
+if (cod == 1)
+{
     Price = 4.00;
     Price *= qtd;
 
-    Console.WriteLine($"Total: R$ {Math.Round(Price,2)}");
-}else if (cod == 2){
+    Console.WriteLine($"Total: R$ {Math.Round(Price, 2)}");
+}
+else if (cod == 2)
+{
     Price = 4.50;
     Price *= qtd;
 
-    Console.WriteLine($"Total: R$ {Math.Round(Price,2)}");
-}else if (cod == 3){
+    Console.WriteLine($"Total: R$ {Math.Round(Price, 2)}");
+}
+else if (cod == 3)
+{
     Price = 5.00;
     Price *= qtd;
 
-    Console.WriteLine($"Total: R$ {Math.Round(Price,2)}");
-}else if (cod == 4){
+    Console.WriteLine($"Total: R$ {Math.Round(Price, 2)}");
+}
+else if (cod == 4)
+{
     Price = 2.00;
     Price *= qtd;
 
-    Console.WriteLine($"Total: R$ {Math.Round(Price,2)}");
-}else if (cod == 5){
+    Console.WriteLine($"Total: R$ {Math.Round(Price, 2)}");
+}
+else if (cod == 5)
+{
     Price = 1.50;
     Price *= qtd;
 
-    Console.WriteLine($"Total: R$ {Math.Round(Price,2)}");
-}else {
+    Console.WriteLine($"Total: R$ {Math.Round(Price, 2)}");
+}
+else
+{
     Console.WriteLine("Código invalido");
 }
 
