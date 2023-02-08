@@ -2,11 +2,45 @@
 
 //Exercicio Média 3
 
-double N1 = double.Parse(Console.ReadLine());
-double N2 = double.Parse(Console.ReadLine());
-double N3 = double.Parse(Console.ReadLine());
-double N4 = double.Parse(Console.ReadLine());
-double Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10;
+double N1 = 0;
+double N2 = 0;
+double N3 = 0;
+double N4 = 0;
+double Media = 0;
+
+do
+{
+    N1 = double.Parse(Console.ReadLine());
+    if(N1 < 0 || N1 > 10){
+        Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
+    }
+}while(N1 < 0 || N1 > 10 );
+
+do
+{
+    N2 = double.Parse(Console.ReadLine());
+    if(N2 < 0 || N2 > 10){
+        Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
+    }
+}while(N2 < 0 || N2 > 10 );
+
+do
+{
+    N3 = double.Parse(Console.ReadLine());
+    if(N3 < 0 || N3 > 10){
+        Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
+    }
+}while(N3 < 0 || N3 > 10 );
+
+do
+{
+    N4 = double.Parse(Console.ReadLine());
+    if(N4 < 0 || N4 > 10){
+        Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
+    }
+}while(N4 < 0 || N4 > 10 );
+
+Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10;
 
 if (Media >= 7 && Media <= 10)
 {
