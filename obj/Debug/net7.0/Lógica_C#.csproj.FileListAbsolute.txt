@@ -1,0 +1,15 @@
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\bin\Debug\net7.0\Lógica_C#.exe
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\bin\Debug\net7.0\Lógica_C#.deps.json
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\bin\Debug\net7.0\Lógica_C#.runtimeconfig.json
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\bin\Debug\net7.0\Lógica_C#.dll
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\bin\Debug\net7.0\Lógica_C#.pdb
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.csproj.AssemblyReference.cache
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.AssemblyInfoInputs.cache
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.AssemblyInfo.cs
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.dll
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\refint\Lógica_C#.dll
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.pdb
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\Lógica_C#.genruntimeconfig.cache
+C:\Users\Vinicius\Documents\Estudo\Lógica_C#\obj\Debug\net7.0\ref\Lógica_C#.dll
