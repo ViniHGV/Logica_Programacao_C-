@@ -2,9 +2,47 @@
 
 
 
+//Exercicio Média 2
+
+
+double A = 0;
+double B = 0;
+double C = 0;
+double Media = 0;
+
+do
+{
+    A = double.Parse(Console.ReadLine());
+    if(A < 0 || A > 10){
+        Console.WriteLine("Valor invalido\nOs valores aceitos são de 0 a 10!");
+    }
+}while(A < 0 || A > 10 );
+
+
+do
+{
+    B = double.Parse(Console.ReadLine());
+    if(B < 0 || B > 10){
+        Console.WriteLine("Valor invalido\nOs valores aceitos são de 0 a 10!");
+    }
+}while(B < 0 || B > 10 );
+
+
+do
+{
+    C = double.Parse(Console.ReadLine());
+    if(C < 0 || C > 10){
+        Console.WriteLine("Valor invalido\nOs valores aceitos são de 0 a 10!");
+    }
+}while(C < 0 || C > 10 );
+
+Media = ((A * 2) + (B * 3) + (C * 5)) /10;
+
+Console.WriteLine($"MEDIA = {Math.Round(Media,1)}");
 
 
 //Exercicio Média 1
+/*
 double N1 = 0;
 double N2 = 0;
 
