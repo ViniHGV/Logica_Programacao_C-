@@ -1,10 +1,19 @@
 ﻿using System;
 
 
+//Exercicio Diferença
+int A = int.Parse(Console.ReadLine());
+int B = int.Parse(Console.ReadLine());
+int C = int.Parse(Console.ReadLine());
+int D = int.Parse(Console.ReadLine());
+int Diferenca = (A * B - C * D);
+
+Console.WriteLine($"DIREFENCA = {Diferenca}");
+
+
 
 //Exercicio Média 2
-
-
+/*
 double A = 0;
 double B = 0;
 double C = 0;
