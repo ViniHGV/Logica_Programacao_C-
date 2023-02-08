@@ -1,10 +1,30 @@
 ﻿using System;
 
+
+
+
+
 //Exercicio Média 1
-double N1 = double.Parse(Console.ReadLine());
-double N2 = double.Parse(Console.ReadLine());
+double N1 = 0;
+double N2 = 0;
+
+do
+{
+    N1 = double.Parse(Console.ReadLine());
+    if(N1 < 0 || N1 > 10){
+        Console.WriteLine("Valor invalido\nOs valores aceitos são de 0 a 10!");
+    }
+}while(N1 < 0 || N1 > 10 );
+
+do
+{
+    N2 = double.Parse(Console.ReadLine());
+    if(N2 < 0 || N2 > 10){
+        Console.WriteLine("Valor invalido\nOs valores aceitos são de 0 a 10!");
+    }
+}while(N2 < 0 || N2 > 10 );
+
 double Media = ((N1 * 3.5) + (N2 * 7.5)) /11;
-Media /= 10;
 
 Console.WriteLine($"MEDIA = {Math.Round(Media,5)}");
 
