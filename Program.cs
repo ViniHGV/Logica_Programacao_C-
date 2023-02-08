@@ -19,6 +19,7 @@ int Prod = X * Y;
 Console.WriteLine($"PROD = {Prod}");
 
 
+
 //Exercicio Área do Círculo
 /*
 double N = 3.14159;
@@ -26,6 +27,7 @@ double raio = double.Parse(Console.ReadLine());
 double area = N * (raio * raio);
 
 Console.WriteLine($"A = {area.ToString("F0")}");
+
 
 
 //Exercicio Soma
@@ -37,11 +39,8 @@ int X = A + B;
 Console.WriteLine($"X = {X}");
 
 
+
 //Exércicio Hello Worl
 /*
 Console.WriteLine("Hello World!");
 */
-
-
-
-
