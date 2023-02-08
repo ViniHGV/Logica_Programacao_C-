@@ -1,6 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Digite a sua idade:");
-int idade = Convert.ToInt32(Console.ReadLine());
+﻿//Exércicio Hello World
+Console.WriteLine("Hello World!");
 
-Console.WriteLine($"Sua idade é {idade}");
+
+
+
 
