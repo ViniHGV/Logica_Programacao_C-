@@ -1,6 +1,56 @@
 ﻿using System;
 
+
+
+//Exercício Aumento de Salário
+
+double Salario = double.Parse(Console.ReadLine());
+double Perc = 0;
+
+if (Salario >= 0 && Salario <= 400)
+{
+    Perc = Salario * 0.15;
+    Salario += Perc;
+
+    Console.WriteLine($"Novo Salario: {Math.Round(Salario, 2)}\nReajuste ganho: {Math.Round(Perc, 2)}\nEm percentual: 15 %");
+}
+else if (Salario > 400 && Salario <= 800)
+{
+    Perc = Salario * 0.12;
+    Salario += Perc;
+
+    Console.WriteLine($"Novo Salario: {Math.Round(Salario, 2)}\nReajuste ganho: {Math.Round(Perc, 2)}\nEm percentual: 12 %");
+}
+else if (Salario > 800 && Salario <= 1200)
+{
+    Perc = Salario * 0.10;
+    Salario += Perc;
+
+    Console.WriteLine($"Novo Salario: {Math.Round(Salario, 2)}\nReajuste ganho: {Math.Round(Perc, 2)}\nEm percentual: 10 %");
+}
+else if (Salario > 1200 && Salario <= 2000)
+{
+    Perc = Salario * 0.07;
+    Salario += Perc;
+
+    Console.WriteLine($"Novo Salario: {Math.Round(Salario, 2)}\nReajuste ganho: {Math.Round(Perc, 2)}\nEm percentual: 7 %");
+}
+else if (Salario > 2000)
+{
+    Perc = Salario * 0.04;
+    Salario += Perc;
+
+    Console.WriteLine($"Novo Salario: {Math.Round(Salario, 2)}\nReajuste ganho: {Math.Round(Perc, 2)}\nEm percentual: 4 %");
+}
+else
+{
+    Console.WriteLine("Não é possível a entrada de um Salário negativo !");
+}
+
+
+
 //Exercicio Múltiplos
+/*
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 
@@ -12,8 +62,6 @@ else
 {
     Console.WriteLine("Nao sao Multiplos");
 }
-
-
 
 
 
