@@ -1,7 +1,24 @@
 ﻿using System;
 
-//Exercicio Média 3
+//Exercicio Múltiplos
+int A = int.Parse(Console.ReadLine());
+int B = int.Parse(Console.ReadLine());
 
+if (B % A == 0)
+{
+    Console.WriteLine("Sao Multiplos");
+}
+else
+{
+    Console.WriteLine("Nao sao Multiplos");
+}
+
+
+
+
+
+//Exercicio Média 3
+/*
 double N1 = 0;
 double N2 = 0;
 double N3 = 0;
@@ -11,34 +28,38 @@ double Media = 0;
 do
 {
     N1 = double.Parse(Console.ReadLine());
-    if(N1 < 0 || N1 > 10){
+    if (N1 < 0 || N1 > 10)
+    {
         Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
     }
-}while(N1 < 0 || N1 > 10 );
+} while (N1 < 0 || N1 > 10);
 
 do
 {
     N2 = double.Parse(Console.ReadLine());
-    if(N2 < 0 || N2 > 10){
+    if (N2 < 0 || N2 > 10)
+    {
         Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
     }
-}while(N2 < 0 || N2 > 10 );
+} while (N2 < 0 || N2 > 10);
 
 do
 {
     N3 = double.Parse(Console.ReadLine());
-    if(N3 < 0 || N3 > 10){
+    if (N3 < 0 || N3 > 10)
+    {
         Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
     }
-}while(N3 < 0 || N3 > 10 );
+} while (N3 < 0 || N3 > 10);
 
 do
 {
     N4 = double.Parse(Console.ReadLine());
-    if(N4 < 0 || N4 > 10){
+    if (N4 < 0 || N4 > 10)
+    {
         Console.WriteLine("Nota inválida, só são aceitas notas de 0 a 10 !");
     }
-}while(N4 < 0 || N4 > 10 );
+} while (N4 < 0 || N4 > 10);
 
 Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10;
 
