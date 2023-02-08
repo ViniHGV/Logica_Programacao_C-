@@ -1,7 +1,18 @@
 ﻿using System;
 
 
+//Exercicio Salário
+
+int num = int.Parse(Console.ReadLine());
+int QtdH = int.Parse(Console.ReadLine());
+double Sal = double.Parse(Console.ReadLine());
+double SalTot = QtdH * Sal;
+
+Console.WriteLine($"NUMBER = {num}\nSALARY = U$ {Math.Round(SalTot,2)}");
+
+
 //Exercicio Diferença
+/*
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 int C = int.Parse(Console.ReadLine());
