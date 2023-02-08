@@ -1,15 +1,36 @@
 ﻿using System;
 
+//Exercicio Média 3
 
 double N1 = double.Parse(Console.ReadLine());
 double N2 = double.Parse(Console.ReadLine());
 double N3 = double.Parse(Console.ReadLine());
 double N4 = double.Parse(Console.ReadLine());
-double Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) /10;
+double Media = ((N1 * 2) + (N2 * 3) + (N3 * 4) + (N4 * 1)) / 10;
 
-if (Media >= 7)
+if (Media >= 7 && Media <= 10)
 {
-    Console.WriteLine($"Media: {Media}\nAluno aprovado.");
+    Console.WriteLine($"Media: {Math.Round(Media, 1)}\nAluno aprovado.");
+}
+else if (Media >= 0 && Media < 5)
+{
+    Console.WriteLine($"Media: {Math.Round(Media, 1)}\nAluno reprovado.");
+}
+else
+{
+    Console.WriteLine($"Media: {Math.Round(Media, 1)}\nAluno em exame.");
+    double Exame = double.Parse(Console.ReadLine());
+    Console.WriteLine($"Nota do exame: {Math.Round(Exame, 1)}");
+    Media = (Media + Exame) / 2;
+    if (Media >= 5)
+    {
+        Console.WriteLine($"Aluno aprovado.\nMedia final: {Math.Round(Media, 1)}");
+    }
+    else
+    {
+        Console.WriteLine($"Aluno reprovado.\nMedia final: {Math.Round(Media, 1)}");
+    }
+
 }
 
 
