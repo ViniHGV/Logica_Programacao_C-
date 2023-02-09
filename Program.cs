@@ -33,7 +33,7 @@ else if (Sal >= 3000 && Sal <= 4500)
 
 
 //Exercício Aumento de Salário
-/*
+
 double Salario = double.Parse(Console.ReadLine());
 double Perc = 0;
 
