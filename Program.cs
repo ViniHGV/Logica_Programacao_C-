@@ -2,8 +2,38 @@
 
 
 
-//Exercício Aumento de Salário
+//Exercício Imposto de Renda
+double Sal = double.Parse(Console.ReadLine());
+double Imposto = 0;
+double Sobra = 0;
+double Porc = 0;
 
+if (Sal >= 0 && Sal <= 2000)
+{
+    Console.WriteLine("Isento");
+}
+else if (Sal >= 2000 && Sal <= 3000)
+{
+    Sal -= 2000;
+    Imposto = Sal * 0.08;
+    Console.WriteLine($"R$ {Math.Round(Imposto,2)}");
+}
+else if (Sal >= 3000 && Sal <= 4500)
+{
+    
+    Sal -= 2000;
+    Sobra = (Sal - 1000);
+    Porc = (Sal - 1000) * 0.18;
+    Imposto = ((Sal - Sobra) * 0.08) + Porc;
+
+    Console.WriteLine($"R$ {Math.Round(Imposto,2)}");
+}
+
+
+
+
+//Exercício Aumento de Salário
+/*
 double Salario = double.Parse(Console.ReadLine());
 double Perc = 0;
 
@@ -44,13 +74,13 @@ else if (Salario > 2000)
 }
 else
 {
-    Console.WriteLine("Não é possível a entrada de um Salário negativo !");
+    Console.WriteLine("Não é possível a entrada de um Salário negativo !s");
 }
 
 
 
 //Exercicio Múltiplos
-/*
+
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 
@@ -66,7 +96,7 @@ else
 
 
 //Exercicio Média 3
-/*
+
 double N1 = 0;
 double N2 = 0;
 double N3 = 0;
@@ -140,7 +170,7 @@ else
 
 
 //Exercicio Lanche
-/*
+
 int cod = int.Parse(Console.ReadLine());
 int qtd = int.Parse(Console.ReadLine());
 double Price = 0;
@@ -189,7 +219,7 @@ else
 
 
 //Exercicio Intervalo
-/*
+
 double Val = double.Parse(Console.ReadLine());
 
 if (Val > 0 && Val <= 25)
@@ -216,7 +246,7 @@ else
 
 
 //Exercicio Salário com Bônus
-/*
+
 string Nome = Console.ReadLine();
 double SalFix = double.Parse(Console.ReadLine());
 double Vendas = double.Parse(Console.ReadLine());
@@ -228,7 +258,7 @@ Console.WriteLine($"TOTAL = R$ {Math.Round(SalTotal,2)}");
 
 
 //Exercicio Salário
-/*
+
 int num = int.Parse(Console.ReadLine());
 int QtdH = int.Parse(Console.ReadLine());
 double Sal = double.Parse(Console.ReadLine());
@@ -238,7 +268,7 @@ Console.WriteLine($"NUMBER = {num}\nSALARY = U$ {Math.Round(SalTot,2)}");
 
 
 //Exercicio Diferença
-/*
+
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 int C = int.Parse(Console.ReadLine());
@@ -250,7 +280,7 @@ Console.WriteLine($"DIREFENCA = {Diferenca}");
 
 
 //Exercicio Média 2
-/*
+
 double A = 0;
 double B = 0;
 double C = 0;
@@ -288,7 +318,7 @@ Console.WriteLine($"MEDIA = {Math.Round(Media,1)}");
 
 
 //Exercicio Média 1
-/*
+
 double N1 = 0;
 double N2 = 0;
 
@@ -315,7 +345,7 @@ Console.WriteLine($"MEDIA = {Math.Round(Media,5)}");
 
 
 //Exercicio Produto Simples
-/*
+
 int X = int.Parse(Console.ReadLine());
 int Y = int.Parse(Console.ReadLine());
 int Prod = X * Y;
@@ -325,7 +355,7 @@ Console.WriteLine($"PROD = {Prod}");
 
 
 //Exercicio Área do Círculo
-/*
+
 double N = 3.14159;
 double raio = double.Parse(Console.ReadLine());
 double area = N * (raio * raio);
@@ -335,7 +365,7 @@ Console.WriteLine($"A = {area.ToString("F0")}");
 
 
 //Exercicio Soma
-/*
+
 int A = int.Parse(Console.ReadLine());
 int B = int.Parse(Console.ReadLine());
 int X = A + B;
@@ -345,6 +375,6 @@ Console.WriteLine($"X = {X}");
 
 
 //Exércicio Hello Worl
-/*
+
 Console.WriteLine("Hello World!");
 */
