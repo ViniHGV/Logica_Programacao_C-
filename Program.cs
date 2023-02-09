@@ -1,8 +1,24 @@
 ﻿using System;
 
 
+//Exercício Números pares
+
+int cont = 1;
+int par = 2;
+
+for (cont = 1; cont <= 100; cont++)
+{
+    if (cont % par == 0)
+    {
+        Console.WriteLine(cont);
+    }
+}
+
+
+
 
 //Exercício Imposto de Renda
+/*
 double Sal = double.Parse(Console.ReadLine());
 double Imposto = 0;
 double Sobra = 0;
