@@ -1,8 +1,17 @@
 ﻿using System;
 
+//Exércicio da Tabuada
+int N = int.Parse(Console.ReadLine());
+
+for (int x =1 ; x <= 10; x++)
+{
+    Console.WriteLine($"{x} x {N} = {x*N}");
+}
+
+
 
 //Exércicio Números Positivos
-
+/*
 int num = 0;
 int pos = 0;
 
