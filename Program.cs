@@ -11,7 +11,7 @@ for (int x =1 ; x <= 10; x++)
 
 
 //Exércicio Números Positivos
-/*
+
 int num = 0;
 int pos = 0;
 
@@ -28,7 +28,7 @@ Console.WriteLine($"{pos} valores positivos");
 
 
 //Exercício Números pares
-/*
+
 int cont = 1;
 int par = 2;
 
