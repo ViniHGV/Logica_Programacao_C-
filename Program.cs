@@ -41,7 +41,7 @@ for (int x =1 ; x <= 10; x++)
 
 
 //Exércicio Números Positivos
-/*
+
 int num = 0;
 int pos = 0;
 
@@ -58,7 +58,7 @@ Console.WriteLine($"{pos} valores positivos");
 
 
 //Exercício Números pares
-/*
+
 int cont = 1;
 int par = 2;
 
@@ -74,7 +74,7 @@ for (cont = 1; cont <= 100; cont++)
 
 
 //Exercício Imposto de Renda
-/
+
 double Sal = double.Parse(Console.ReadLine());
 double Imposto = 0;
 double Sobra = 0;
@@ -449,4 +449,4 @@ Console.WriteLine($"X = {X}");
 //Exércicio Hello Worl
 
 Console.WriteLine("Hello World!");
-*/
+
