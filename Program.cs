@@ -1,7 +1,20 @@
 ﻿using System;
 
-//Exércicio Maior e Posição
+//Exércicio PUM
 
+int num = int.Parse(Console.ReadLine());
+int n = 0;
+
+for (int i = 0; i < num; i++){
+    Console.WriteLine($"{n+1} {n+2} {n+3} PUM");
+    n += 4;
+}
+
+
+
+
+//Exércicio Maior e Posição
+/*
 int cont = 0;
 int qtd = 0;
 int n = 0;
@@ -449,4 +462,4 @@ Console.WriteLine($"X = {X}");
 //Exércicio Hello Worl
 
 Console.WriteLine("Hello World!");
-
+*/
