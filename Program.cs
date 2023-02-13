@@ -1,6 +1,36 @@
 ﻿using System;
 
+//Exércicio Maior e Posição
+
+int cont = 0;
+int qtd = 0;
+int n = 0;
+int maior = 0;
+
+Console.WriteLine("Digite a quantidade de números que deseja inserir");
+qtd = int.Parse(Console.ReadLine());
+int [] pos = new int [qtd];
+
+for (cont = 0; cont < qtd; cont++)
+{
+    Console.WriteLine($"Digite o {cont + 1}° número:");
+    n = int.Parse(Console.ReadLine());
+    pos [cont] = n;
+
+    if (n > maior)
+    {
+        maior = n;
+    }
+}
+for (cont = 0; cont < qtd; cont++){
+    if (maior ==  pos[cont]){
+        Console.WriteLine($"O maior número digitado foi: {maior} e está na {cont+1}° posição");
+    }
+}
+
+
 //Exércicio da Tabuada
+/*
 int N = int.Parse(Console.ReadLine());
 
 for (int x =1 ; x <= 10; x++)
