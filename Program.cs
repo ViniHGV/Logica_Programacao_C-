@@ -44,7 +44,7 @@ for (cont = 1; cont <= 100; cont++)
 
 
 //Exercício Imposto de Renda
-/
+
 double Sal = double.Parse(Console.ReadLine());
 double Imposto = 0;
 double Sobra = 0;
