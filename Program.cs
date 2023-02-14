@@ -1,5 +1,32 @@
 ﻿using System;
 
+
+
+
+
+//Exercicio média idades
+
+int qtd = 0;
+int idade = 0;
+double media = 0;
+
+while(idade >= 0){
+    idade = int.Parse(Console.ReadLine());
+    if (idade >=0){
+        media += idade;
+        qtd ++;
+    }
+    
+}
+media /= qtd;
+Console.WriteLine($"{media}");
+
+
+
+
+
+
+
 //Exércicio PUM
 
 int num = int.Parse(Console.ReadLine());
@@ -14,7 +41,7 @@ for (int i = 0; i < num; i++){
 
 
 //Exércicio Maior e Posição
-/*
+
 int cont = 0;
 int qtd = 0;
 int n = 0;
@@ -43,7 +70,7 @@ for (cont = 0; cont < qtd; cont++){
 
 
 //Exércicio da Tabuada
-/*
+
 int N = int.Parse(Console.ReadLine());
 
 for (int x =1 ; x <= 10; x++)
