@@ -1,11 +1,16 @@
 ﻿using System;
+using Lógica_C_.Models;
 
+ Pessoa Vns = new Pessoa();
 
+ Vns.name = "Vinicius";
+ Vns.idade= 19;
+ Vns.Apresentacao();
 
 
 
 //Exercicio média idades
-
+/*
 int qtd = 0;
 int idade = 0;
 double media = 0;
