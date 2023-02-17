@@ -28,7 +28,7 @@ Console.WriteLine($"{media}");
 
 
 //Exércicio PUM
-
+/*
 int num = int.Parse(Console.ReadLine());
 int n = 0;
 
