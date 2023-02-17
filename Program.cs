@@ -1,6 +1,15 @@
 ﻿using System;
 using Lógica_C_.Models;
 
+
+
+Professor Prof1 = new Professor();
+Prof1.name = "Henrique";
+Prof1.idade = 19;
+Prof1.Apresentação();
+
+
+
  Pessoa Vns = new Pessoa();
 
  Vns.name = "Vinicius";
