@@ -8,7 +8,10 @@ namespace Lógica_C_.Models
     public class Pessoa
     {   private string curso;
 
-        public string Curso { get; set; }
+        public string Curso {
+             get{ return curso ;} 
+             set{ curso = value; } 
+        }
         public int idade { get; set; }
         public string name { get; set; }
 
