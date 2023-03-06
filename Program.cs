@@ -14,7 +14,7 @@ Prof1.Apresentação();
 
  Vns.name = "Vinicius";
  Vns.idade= 19;
- Vns.Apresentacao();
+ Vns.Apresentacao("ADS");
 
 
 

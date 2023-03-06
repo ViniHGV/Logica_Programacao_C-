@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 namespace Lógica_C_.Models
 {
     public class Pessoa
-    {   private string curso;
+    {   
+        private string curso;
 
         public string Curso {
              get{ return curso ;} 
@@ -15,8 +16,9 @@ namespace Lógica_C_.Models
         public int idade { get; set; }
         public string name { get; set; }
 
-        public void Apresentacao(){
-            Console.WriteLine($"Ola meu nome é {name} e eu tenho {idade} anos");
+        public void Apresentacao(string Cursos){
+            curso = Cursos;
+            Console.WriteLine($"Ola meu nome é {name} e eu tenho {idade} anos \nCursando: {curso}");
         }
     }
 }
